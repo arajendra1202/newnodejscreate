@@ -14,7 +14,7 @@ variables:
 
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'a864dc69-0216-4780-b5eb-bc2732030e82'
-  imageRepository: 'nodejstest'
+  imageRepository: 'nodejstest123'
   containerRegistry: 'kcsacrsupport.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
